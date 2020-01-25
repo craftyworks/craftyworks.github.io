@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "혼술하는 머머리"
+title                    : "Project Honsul"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Craftyworks"
+name                     : "프로젝트 혼술"
 description              : "혼술하는 머머리가 뇌가 녹아서 시작하는 블로그"
 url                      : "https://craftyworks.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,15 +107,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Craftyworks"
+  name             : "ddam40"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "혼술하는 머머리 개발자"
   location         : "South Korea"
-  email            : "craftyworks@gmail.com"
+  email            : "ddam40@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:craftyworks@gmail.com
+      # url: mailto:craftyworks@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -291,5 +291,16 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
       share: true
       related: true
