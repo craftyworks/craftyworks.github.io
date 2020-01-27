@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "ddam40"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo-starboy.jpg"
   bio              : "혼술하는 머머리 개발자"
   location         : "South Korea"
   email            : "ddam40@gmail.com"
