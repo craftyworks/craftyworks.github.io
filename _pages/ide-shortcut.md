@@ -12,7 +12,7 @@ Ctrl+Shift+K | Delete Line
 Alt+↑/↓ | Move line up/down
 Alt+←/→ | Go back/forward
 
-> https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+> <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 
 ## IntelliJ IDEA
 
@@ -23,8 +23,10 @@ Search Everywhere | Double Shift
 Show Intention Actions and quick-fixes | Alt + Enter
 Recent files popup | Ctrl + E
 Rename | Shift + F6
+Toggle Maximizing editor | Ctrl + Shift + F12
+Move line up/down | Shift + Alt + ↑/↓  
 
-> https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+> <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
 ## Android Studio
 
@@ -34,4 +36,4 @@ Ctrl+Y | Delete Line
 Shift+F10 | Run
 Ctrl+F2 | Stop
 
->https://developer.android.com/studio/intro/keyboard-shortcuts
+> <https://developer.android.com/studio/intro/keyboard-shortcuts>
