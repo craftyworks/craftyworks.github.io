@@ -41,6 +41,8 @@ Reformat Code | Ctrl + Alt + L
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
+> <https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html>
+
 ## Android Studio
 
 Binding | Action
