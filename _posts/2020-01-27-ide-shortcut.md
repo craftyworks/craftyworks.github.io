@@ -28,6 +28,7 @@ Alt+←/→ | Go back/forward
 
 Action | Binding
 --- | ---
+Organize import | Ctrl + Alt + O
 Smart Code Completion | Ctrl + Shift + Space
 Search Everywhere | Double Shift
 Show Intention Actions and quick-fixes | Alt + Enter
