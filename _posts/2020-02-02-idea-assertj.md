@@ -1,14 +1,28 @@
 ---
-title: "Windows 10 Full shutdown"
-excerpt: "Windows 10 깨끗하게 죽이는 법"
+title: "IntelliJ IDEA 에서 assertj 사용 편하게 하기"
+excerpt: "assertThat 사용시 import static 깔끔하게 적용하는 방법"
 
 categories: 
   - IT
 tag:
-  - Windows 10
-  - Shutdown
-last-modified-at: 2020-01-27T20:26:00
+  - assertj
+  - junit
+  - IDEA
+last-modified-at: 2020-02-02T00:52:00
 ---
 
-시작 > 전원 > [Shift 키를 누른채로] 종료 or 다시 시작
+## Settings
+
+* Editor > Code Style > Java
+    * Imports Tab    
+    ```
+    Names count to use static import with '*' : 1
+    ```
+
+## static import
+
+1. `assertThat` 입력 후 `Ctrl+Alt+Space` 클릭
+1. `Assertions.assertThat` 선택 상태에서 `Alt+Enter` 클릭 
+1. `Import Statically` 선택
+
 
