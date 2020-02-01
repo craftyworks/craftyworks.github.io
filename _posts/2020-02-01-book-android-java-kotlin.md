@@ -15,4 +15,6 @@ last-modified-at: 2020-02-01T16:26:00
 
 Oracle JDK 를 설치하도록 가이드 하고 있습니다. OpenJDK 설치로 변경해야 하지 않을까요? 그리고 10.0.1 버전 설치도 조금은 무리이지 싶어요.
 
+## Chapter 3 안드로이드 베이진 by "Hello World"
 
+AVD 가 설치 불가능한 PC 에 대한 설명이 일절도 없네요.
