@@ -38,6 +38,7 @@ Toggle Maximizing editor | Ctrl + Shift + F12
 Move line up/down | Shift + Alt + ↑/↓  
 Settings | Ctrl + Alt + S
 Reformat Code | Ctrl + Alt + L
+Create Test | Ctrl + Shift + T
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
