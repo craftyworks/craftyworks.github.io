@@ -21,6 +21,7 @@ Binding | Action
 Ctrl+Shift+K | Delete Line
 Alt+↑/↓ | Move line up/down
 Alt+←/→ | Go back/forward
+Ctrl+` | Show/Hide Terminal
 
 > <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 
@@ -39,6 +40,7 @@ Move line up/down | Shift + Alt + ↑/↓
 Settings | Ctrl + Alt + S
 Reformat Code | Ctrl + Alt + L
 Create Test | Ctrl + Shift + T
+Go to Implementation | Ctrl + Alt + B
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
