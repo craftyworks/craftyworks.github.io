@@ -62,3 +62,53 @@ Ctrl+F2 | Stop
 ![](/assets/images/vim_move_shortcut.jpg)
 
 > 출처 : https://itisfun.tistory.com/281
+
+### .ideavimrc
+
+```
+# 시스템 클립보드 연동
+set clipboard+=unnamed
+
+# 사용자 정의 단축키
+nnoremap <leader>rr :action Run<cr>
+```
+* cmd 
+  * n+nore+map
+  * n : normal mode
+  * nore : non-recursive
+  * map
+* attr
+  * \<leader\> : \ (back slash)
+  * \<space\> : Space
+  * \<C-A\> : Ctrl + a
+  * \<tab> : Tab
+* lhs (left hand side)
+  * :action
+* rhs
+  * command 
+  * \<cr\> : Carriage Return
+
+### ESC 키매핑 바꾸기
+
+VIM 을 사용하면 ESC 키를 겁나게 누르게 되어 있다.  그런데 지리적으로 키보드 좌측상단에 있다보니 왼쪽 약지 손가락을 쭉펴서 찾아가야 한다. 처음 VI 가 태어날 당시에는 키보드에서 ESC 키의 위치가 현재와 달리 지금의 Tab 키 자리 였다고 한다.
+
+![ADM-3A terminal](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/KB_Terminal_ADM3A.svg/1200px-KB_Terminal_ADM3A.svg.png)
+
+검색해보면 여러가지 방법이 나오긴 하는데...  
+일단은 jj 를 써보기로 한다.
+
+```
+:imap jj <ESC>
+```
+### VS Code
+
+settings.json
+
+```json
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    
+```
