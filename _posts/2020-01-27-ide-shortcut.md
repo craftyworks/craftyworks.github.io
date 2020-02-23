@@ -50,9 +50,10 @@ Go to Implementation | Ctrl + Alt + B
 
 Binding | Action
 --- | ---
-Ctrl+Y | Delete Line
-Shift+F10 | Run
-Ctrl+F2 | Stop
+Ctrl + Y | Delete Line
+Ctrl + F9 | Make Project
+Shift + F10 | Run
+Ctrl + F2 | Stop
 
 > <https://developer.android.com/studio/intro/keyboard-shortcuts>
 
