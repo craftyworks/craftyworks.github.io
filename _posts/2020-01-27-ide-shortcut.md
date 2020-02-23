@@ -22,6 +22,7 @@ Ctrl+Shift+K | Delete Line
 Alt+↑/↓ | Move line up/down
 Alt+←/→ | Go back/forward
 Ctrl+` | Show/Hide Terminal
+Ctrl + F4 | Close Editor
 
 > <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 
@@ -41,6 +42,8 @@ Settings | Ctrl + Alt + S
 Reformat Code | Ctrl + Alt + L
 Create Test | Ctrl + Shift + T
 Go to Implementation | Ctrl + Alt + B
+Next Highlited Error | F2
+Previous Highlited Error | Shift + F2
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
