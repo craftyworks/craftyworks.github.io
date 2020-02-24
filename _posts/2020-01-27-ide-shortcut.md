@@ -44,6 +44,7 @@ Create Test | Ctrl + Shift + T
 Go to Implementation | Ctrl + Alt + B
 Next Highlited Error | F2
 Previous Highlited Error | Shift + F2
+Override Methods | Ctrl + O
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
