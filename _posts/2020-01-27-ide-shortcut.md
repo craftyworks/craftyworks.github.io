@@ -61,6 +61,12 @@ Ctrl + F2 | Stop
 > <https://developer.android.com/studio/intro/keyboard-shortcuts>
 
 ## Vim
+
+Action | Bindng
+--- | ---
+현재 커서에서 줄 끝까지 삭제 | d$ 또는 D
+현재 커서에서 줄 끝까지 삭제하고 insert mode | c$ 또는 C
+
 ![](/assets/images/vim_shortcut.jpg)
 
 ![](/assets/images/vim_move_shortcut.jpg)
