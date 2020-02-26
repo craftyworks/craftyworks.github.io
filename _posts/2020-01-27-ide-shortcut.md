@@ -104,6 +104,7 @@ VIM 을 사용하면 ESC 키를 겁나게 누르게 되어 있다.  그런데 �
 
 ```
 :imap jj <ESC>
+:imap kk <ESC>
 ```
 ### VS Code
 
@@ -115,5 +116,16 @@ settings.json
         "before": ["j", "j"],
         "after": ["<Esc>"]
       }
-    
+    ]
 ```
+
+### .vrapperrc
+
+파일 : %UESRPROFILE%/.vrapperrc
+
+```
+imap jj <ESC>
+imap kk <ESC>
+```
+
+참고 : [Document - Configuration](http://vrapper.sourceforge.net/documentation/?topic=configuration)
