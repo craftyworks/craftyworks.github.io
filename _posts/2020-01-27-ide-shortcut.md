@@ -44,6 +44,7 @@ Create Test | Ctrl + Shift + T
 Go to Implementation | Ctrl + Alt + B
 Next Highlited Error | F2
 Previous Highlited Error | Shift + F2
+Override Methods | Ctrl + O
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
@@ -109,6 +110,7 @@ VIM 을 사용하면 ESC 키를 겁나게 누르게 되어 있다.  그런데 �
 
 ```
 :imap jj <ESC>
+:imap kk <ESC>
 ```
 ### VS Code
 
@@ -120,5 +122,16 @@ settings.json
         "before": ["j", "j"],
         "after": ["<Esc>"]
       }
-    
+    ]
 ```
+
+### .vrapperrc
+
+파일 : %UESRPROFILE%/.vrapperrc
+
+```
+imap jj <ESC>
+imap kk <ESC>
+```
+
+참고 : [Document - Configuration](http://vrapper.sourceforge.net/documentation/?topic=configuration)
