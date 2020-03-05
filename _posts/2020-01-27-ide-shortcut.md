@@ -19,10 +19,11 @@ last-modified-at: 2020-01-27T22:12:00
 Binding | Action
 --- | ---
 Ctrl+Shift+K | Delete Line
-Alt+↑/↓ | Move line up/down
+Alt+↑/↓ | Move line up/down`
 Alt+←/→ | Go back/forward
 Ctrl+` | Show/Hide Terminal
 Ctrl + F4 | Close Editor
+Ctrl + w | Close Window
 
 > <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 
@@ -46,6 +47,7 @@ Next Highlited Error | F2
 Previous Highlited Error | Shift + F2
 Override Methods | Ctrl + O
 Quick Javadoc | Ctrl + Q
+Generate... | Alt + Insert
 
 > <https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 
